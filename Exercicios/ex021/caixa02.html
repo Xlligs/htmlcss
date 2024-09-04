@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: grey;
+            text-align: justify;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: auto;
+
+        }
+        nav{
+            background-color: rgb(0, 0, 0);
+            padding: 5px;
+            border: 5px;
+            box-shadow: 5px 5px 5px rgb(255, 0, 0);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: blue;
+            
+        }
+        main{
+            background-color: rgb(71, 71, 80);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 4px 4px 4px 4px black;
+        }
+
+        footer{
+            background-color: black;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        article{
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        article > aside{
+            background-color: rgb(255, 255, 255);
+            color: black;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link5</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident facilis, architecto, sequi obcaecati molestiae voluptatum eos, dignissimos ea asperiores in repudiandae minus debitis? Illo, voluptates sequi nam obcaecati non officia!</p>
+            <aside>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam beatae assumenda molestiae amet dolore ex deserunt est esse labore. Minus tempora nam fugiat maiores soluta, explicabo ducimus error nihil harum?</p>
+            </aside>
+        </article>
+
+        </section>
+
+    </main>
+    <footer>
+        Desenvolvido pelo dasfjfa
+    </footer>
+    <div id="bola"></div>
+
+</body>
+</html>
